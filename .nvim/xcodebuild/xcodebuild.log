@@ -1,0 +1,19 @@
+Resolving Package Graph
+Resolved source packages
+XcodebuildNvimPreview - https://github.com/wojciech-kulik/xcodebuild-nvim-preview @ 1.0.10
+[TapGame] Processing empty-TapGame.plist
+[TapGame] Compiling ContentView.swift
+[TapGame] Copy arm64-apple-ios.abi.json -> TapGame.abi.json
+[TapGame] Copy arm64-apple-ios.swiftmodule -> TapGame.swiftmodule
+[TapGame] Copy arm64-apple-ios.swiftsourceinfo -> TapGame.swiftsourceinfo
+Signing TapGame.debug.dylib (in target 'TapGame' from project 'TapGame')
+Signing __preview.dylib (in target 'TapGame' from project 'TapGame')
+Signing TapGame.app (in target 'TapGame' from project 'TapGame')
+Build Succeeded
+
+-----------------------------
+-- xcodebuild.nvim summary --
+-----------------------------
+
+  ✔ Build Succeeded
+
