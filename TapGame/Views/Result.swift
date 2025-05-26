@@ -20,7 +20,8 @@ struct Result: View {
                 .padding(.bottom, 8)
 
             Button {
-                viewModel.targetIndex = Int.random(in: 0...3)
+                viewModel.selectedImgIndex = Int.random(in: 0..<4)
+                viewModel.targetIndex = Int.random(in: 0...4)
                 viewModel.activeScreen = .play
                 viewModel.cancellable = viewModel.timer.connect()
             } label: {
