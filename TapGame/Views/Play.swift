@@ -9,8 +9,8 @@ struct Play: View {
         VStack {
             Image(imgs[viewModel.selectedImgIndex])
                 .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(height: 400)
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 300, height: 300)
                 .clipShape(RoundedRectangle(cornerRadius: 8))
                 .onTapGesture {
                     if viewModel.selectedImgIndex == viewModel.targetIndex {
